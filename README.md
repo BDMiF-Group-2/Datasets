@@ -5,3 +5,4 @@
 - train_bal: balanced train set with the same 92 features of the based train set.
 - train_feat_sel: train set after feature selection based on multicollinearity testing (VIF values). Only 52 features remaining.
 - train_bal_feat_sel: subset of the balanced train set (train_bal) with only the 52 features from the feature selection.
+- pca: Principal Components of base train set. As there are 92 features, there are 92 principal components.
